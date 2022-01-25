@@ -9,7 +9,6 @@ E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debu
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\ref\SeleniumTest.dll
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\SeleniumTest.pdb
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
-E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\Microsoft.DotNet.InternalAbstractions.dll
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -23,7 +22,6 @@ E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debu
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\nunit.framework.dll
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\WebDriver.Support.dll
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\WebDriver.dll
-E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -99,3 +97,6 @@ E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\obj\Debu
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\obj\Debug\net5.0\ref\SeleniumTest.dll
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\obj\Debug\net5.0\SeleniumTest.pdb
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\obj\Debug\net5.0\SeleniumTest.genruntimeconfig.cache
+E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\testhost.exe
+E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\nunit.engine.core.dll
+E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\testcentric.engine.metadata.dll
