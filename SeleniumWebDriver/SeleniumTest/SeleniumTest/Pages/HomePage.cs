@@ -8,7 +8,6 @@ namespace SeleniumTest.Selenium.dev
         {
             this.driver = base.driver;
         }
-
         IWebElement DocumentationButton => driver.FindElement(By.XPath("//a[@href='/documentation']"));
 
         public void GoToDocumentation() { DocumentationButton.Click(); }

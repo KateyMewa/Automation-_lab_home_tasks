@@ -2,6 +2,42 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Coypu/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "[3.141.0, 4.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/Coypu.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Coypu.dll": {}
+        }
+      },
+      "DotNetSeleniumExtras.PageObjects/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
+      "DotNetSeleniumExtras.PageObjects.Core/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.0.1"
+        },
+        "compile": {
+          "lib/net5.0/SeleniumExtras.PageObjects.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
       "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
         "type": "package",
         "dependencies": {
@@ -1058,6 +1094,51 @@
     }
   },
   "libraries": {
+    "Coypu/3.1.1": {
+      "sha512": "6u7FAhO1GfHLtIBZTEyMFHApXwdti6F6ac5ijXIzu26/6GPKUjAnFiRScjsqJ4bjae8EMr5Ck9Oy4s1XoJMB2A==",
+      "type": "package",
+      "path": "coypu/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "coypu.3.1.1.nupkg.sha512",
+        "coypu.nuspec",
+        "lib/net45/Coypu.dll",
+        "lib/net45/Coypu.xml",
+        "lib/netstandard2.0/Coypu.dll",
+        "lib/netstandard2.0/Coypu.xml"
+      ]
+    },
+    "DotNetSeleniumExtras.PageObjects/3.11.0": {
+      "sha512": "DJCLQ3beq1fzqpeQ5jTZwDqmzbOD2Xxsb/jCyShYam88CNwGGn5aBBqu4LVSj0sy0Ai76OauQQncYlC48VvQUQ==",
+      "type": "package",
+      "path": "dotnetseleniumextras.pageobjects/3.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
+        "dotnetseleniumextras.pageobjects.nuspec",
+        "lib/net35/SeleniumExtras.PageObjects.dll",
+        "lib/net40/SeleniumExtras.PageObjects.dll",
+        "lib/net45/SeleniumExtras.PageObjects.dll",
+        "lib/netstandard2.0/SeleniumExtras.PageObjects.dll"
+      ]
+    },
+    "DotNetSeleniumExtras.PageObjects.Core/4.0.1": {
+      "sha512": "Hbhoy7+qnd9IeUh2S8s30ylmL6X7w2/za/pqzkHgBYwvvykIdJg3n3/pVe9Tdi/ccGS/eNOkkwSY9RSa/Y7Z0Q==",
+      "type": "package",
+      "path": "dotnetseleniumextras.pageobjects.core/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "dotnetseleniumextras.pageobjects.core.4.0.1.nupkg.sha512",
+        "dotnetseleniumextras.pageobjects.core.nuspec",
+        "lib/net46/SeleniumExtras.PageObjects.dll",
+        "lib/net5.0/SeleniumExtras.PageObjects.dll",
+        "lib/netstandard2.0/SeleniumExtras.PageObjects.dll"
+      ]
+    },
     "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
       "sha512": "xc6jVVl5ymgk3ZNWnC/KHxkEup1QpnwYbrwF+NQoCOGERsD8YMlLwmsX4lGhLXCLo/YQTRTIwlKCN9E/doGUNg==",
       "type": "package",
@@ -3939,6 +4020,9 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Coypu >= 3.1.1",
+      "DotNetSeleniumExtras.PageObjects >= 3.11.0",
+      "DotNetSeleniumExtras.PageObjects.Core >= 4.0.1",
       "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.12.0",
@@ -3987,6 +4071,18 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Coypu": {
+            "target": "Package",
+            "version": "[3.1.1, )"
+          },
+          "DotNetSeleniumExtras.PageObjects": {
+            "target": "Package",
+            "version": "[3.11.0, )"
+          },
+          "DotNetSeleniumExtras.PageObjects.Core": {
+            "target": "Package",
+            "version": "[4.0.1, )"
+          },
           "DotNetSeleniumExtras.WaitHelpers": {
             "target": "Package",
             "version": "[3.11.0, )"
@@ -4034,5 +4130,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Coypu 3.1.1 requires Selenium.WebDriver (>= 3.141.0 && < 4.0.0) but version Selenium.WebDriver 4.1.0 was resolved.",
+      "libraryId": "Selenium.WebDriver",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

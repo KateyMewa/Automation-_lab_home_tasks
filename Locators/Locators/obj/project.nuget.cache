@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "g3Ze+r/yd13ZSgLUUbvCtcdJ7oNC7oe/8cA3UFGtjK2NGsxjt29Rv4no2WtpPg/4gmdVP7qNYsSOlPUTZkHlqQ==",
+  "dgSpecHash": "pPbtm0KUY0bTeaLXfzt3NMliI3fpQxcvGNbEgvRKlasrxlAVGFimersaUkHEtI68zKmdUF3uBQ+CXi+IFcqwWw==",
   "success": true,
   "projectFilePath": "E:\\Docs\\EPAM_lab\\Automation\\Locators\\Locators\\Locators.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Kate\\.nuget\\packages\\coypu\\3.1.1\\coypu.3.1.1.nupkg.sha512",
+    "C:\\Users\\Kate\\.nuget\\packages\\dotnetseleniumextras.pageobjects\\3.11.0\\dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
+    "C:\\Users\\Kate\\.nuget\\packages\\dotnetseleniumextras.pageobjects.core\\4.0.1\\dotnetseleniumextras.pageobjects.core.4.0.1.nupkg.sha512",
     "C:\\Users\\Kate\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
     "C:\\Users\\Kate\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\Kate\\.nuget\\packages\\microsoft.dotnet.internalabstractions\\1.0.0\\microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
@@ -62,5 +65,16 @@
     "C:\\Users\\Kate\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\Kate\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Coypu 3.1.1 requires Selenium.WebDriver (>= 3.141.0 && < 4.0.0) but version Selenium.WebDriver 4.1.0 was resolved.",
+      "libraryId": "Selenium.WebDriver",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

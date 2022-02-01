@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "DotNetSeleniumExtras.PageObjects/3.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
       "Microsoft.CodeCoverage/17.0.0": {
         "type": "package",
         "compile": {
@@ -386,6 +398,21 @@
     }
   },
   "libraries": {
+    "DotNetSeleniumExtras.PageObjects/3.11.0": {
+      "sha512": "DJCLQ3beq1fzqpeQ5jTZwDqmzbOD2Xxsb/jCyShYam88CNwGGn5aBBqu4LVSj0sy0Ai76OauQQncYlC48VvQUQ==",
+      "type": "package",
+      "path": "dotnetseleniumextras.pageobjects/3.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
+        "dotnetseleniumextras.pageobjects.nuspec",
+        "lib/net35/SeleniumExtras.PageObjects.dll",
+        "lib/net40/SeleniumExtras.PageObjects.dll",
+        "lib/net45/SeleniumExtras.PageObjects.dll",
+        "lib/netstandard2.0/SeleniumExtras.PageObjects.dll"
+      ]
+    },
     "Microsoft.CodeCoverage/17.0.0": {
       "sha512": "+B+09FPYBtf+cXfZOPIgpnP5mzLq5QdlBo+JEFy9CdqBaWHWE/YMY0Mos9uDsZhcgFegJm9GigAgMyqBZyfq+Q==",
       "type": "package",
@@ -1274,6 +1301,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "DotNetSeleniumExtras.PageObjects >= 3.11.0",
       "Microsoft.NET.Test.Sdk >= 17.0.0",
       "NUnit >= 3.13.2",
       "NUnit3TestAdapter >= 4.2.1",
@@ -1321,6 +1349,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "DotNetSeleniumExtras.PageObjects": {
+            "target": "Package",
+            "version": "[3.11.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.0.0, )"

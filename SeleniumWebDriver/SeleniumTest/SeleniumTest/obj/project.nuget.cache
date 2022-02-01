@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6D4MKGY8CBONaZxubSQ3oR3Ag5s5RJT5Qq1ZlPob+d2aPWfFWEw8jWERDoobHMgN52kOz8PXrADhI0lpEWNxbw==",
+  "dgSpecHash": "qNnJwjCZ63s/UtR59crACWApNLgKEznpCDTgqPJAh2LLsasZFjCbnRJox3JhwO5zQoXMorGBEHL0GPFHnSSGAQ==",
   "success": true,
   "projectFilePath": "E:\\Docs\\EPAM_lab\\Automation\\SeleniumWebDriver\\SeleniumTest\\SeleniumTest\\SeleniumTest.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Kate\\.nuget\\packages\\dotnetseleniumextras.pageobjects\\3.11.0\\dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
     "C:\\Users\\Kate\\.nuget\\packages\\microsoft.codecoverage\\17.0.0\\microsoft.codecoverage.17.0.0.nupkg.sha512",
     "C:\\Users\\Kate\\.nuget\\packages\\microsoft.net.test.sdk\\17.0.0\\microsoft.net.test.sdk.17.0.0.nupkg.sha512",
     "C:\\Users\\Kate\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

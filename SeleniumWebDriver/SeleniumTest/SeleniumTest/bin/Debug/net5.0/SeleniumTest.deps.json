@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "SeleniumTest/1.0.0": {
         "dependencies": {
+          "DotNetSeleniumExtras.PageObjects": "3.11.0",
           "Microsoft.NET.Test.Sdk": "17.0.0",
           "NUnit": "3.13.2",
           "NUnit3TestAdapter": "4.2.1",
@@ -17,6 +18,17 @@
         },
         "runtime": {
           "SeleniumTest.dll": {}
+        }
+      },
+      "DotNetSeleniumExtras.PageObjects/3.11.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {
+            "assemblyVersion": "3.11.0.0",
+            "fileVersion": "3.11.0.0"
+          }
         }
       },
       "Microsoft.CodeCoverage/17.0.0": {
@@ -345,6 +357,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "DotNetSeleniumExtras.PageObjects/3.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DJCLQ3beq1fzqpeQ5jTZwDqmzbOD2Xxsb/jCyShYam88CNwGGn5aBBqu4LVSj0sy0Ai76OauQQncYlC48VvQUQ==",
+      "path": "dotnetseleniumextras.pageobjects/3.11.0",
+      "hashPath": "dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.0.0": {
       "type": "package",

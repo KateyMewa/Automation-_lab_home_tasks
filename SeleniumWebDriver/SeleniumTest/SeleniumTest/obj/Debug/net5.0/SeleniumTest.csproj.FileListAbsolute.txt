@@ -100,3 +100,4 @@ E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\obj\Debu
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\testhost.exe
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\nunit.engine.core.dll
 E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\testcentric.engine.metadata.dll
+E:\Docs\EPAM_lab\Automation\SeleniumWebDriver\SeleniumTest\SeleniumTest\bin\Debug\net5.0\SeleniumExtras.PageObjects.dll

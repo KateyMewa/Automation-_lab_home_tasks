@@ -202,3 +202,5 @@ C:\Users\Kate\Desktop\Locators\Locators\obj\Debug\net5.0\Locators.dll
 C:\Users\Kate\Desktop\Locators\Locators\obj\Debug\net5.0\ref\Locators.dll
 C:\Users\Kate\Desktop\Locators\Locators\obj\Debug\net5.0\Locators.pdb
 C:\Users\Kate\Desktop\Locators\Locators\obj\Debug\net5.0\Locators.genruntimeconfig.cache
+E:\Docs\EPAM_lab\Automation\Locators\Locators\bin\Debug\net5.0\Coypu.dll
+E:\Docs\EPAM_lab\Automation\Locators\Locators\bin\Debug\net5.0\SeleniumExtras.PageObjects.dll
